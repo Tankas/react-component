@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import NavComponent from './components/TabComponent.js';
+import TabComponent from './components/TabComponent.js';
 import logo from './logo.svg';
 import './App.css';
 
@@ -32,7 +32,7 @@ class App extends Component {
     ]
     return (
       <div className="App">
-        <NavComponent data={data} clickNav={this.clickNav}></NavComponent>
+        <TabComponent data={data} clickNav={this.clickNav}></TabComponent>
       </div>
     );
   }
